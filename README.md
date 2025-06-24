@@ -1,9 +1,9 @@
-[Hux Blog](https://huangxuan.me)
+[TSingularity Blog](https://xwlz11.github.io/blog.github.io)
 ================================
 
 > I never expected this to become popular.
 
-![](http://huangxuan.me/img/blog-desktop.jpg)
+![](https://xwlz11.github.io/blog.github.io/img/blog-desktop.jpg)
 
 
 [User Manual 👉](_doc/Manual.md)
