@@ -15,6 +15,18 @@
             document.cookie = 'logged_in=; path=/; SameSite=None; Secure';
         }
     </script>
+  	<!-- 添加禁止源映射 -->
+  	<meta name="robots" content="no-source-map">
+
+	<!-- 更新字体 -->
+	<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-solid-900.woff2"
+        as="font" crossorigin="anonymous">
+
+  	<link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer">
+
     {% include nav.html %}
     {% include search.html %}
 
