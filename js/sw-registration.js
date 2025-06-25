@@ -35,8 +35,9 @@ if(navigator.serviceWorker){
   // For security reasons, a service worker can only control the pages
   // that are in the same directory level or below it. That's why we put sw.js at ROOT level.
   navigator.serviceWorker
-    .register('/blog.github.io/sw.js')
-    .then((registration) => handleRegistration(registration))
+    .register('/blog.github.io/sw.js', {scope: '/blog.github.io/'})
+    // .then((registration) => handleRegistration(registration))
+    .then((registration) => {console.log('ServiceWorker registration sucessfully: ', registration)})
     .catch((error) => {console.log('ServiceWorker registration failed: ', error)})
 
   // register message receiver
