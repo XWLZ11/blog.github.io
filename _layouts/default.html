@@ -5,29 +5,8 @@
 
 <!-- hack iOS CSS :active style -->
 <body ontouchstart="">
-    <!-- 添加跨站Cookie设置 -->
-    <script>
-        // 在页面内容加载前设置跨站Cookie属性
-        if (location.protocol === 'https:') {
-            // 设置Cookie的SameSite属性为None并标记Secure
-            document.cookie = '_gh_sess=; path=/; SameSite=None; Secure';
-            document.cookie = '_octo=; path=/; SameSite=None; Secure';
-            document.cookie = 'logged_in=; path=/; SameSite=None; Secure';
-        }
-    </script>
-  	<!-- 添加禁止源映射 -->
-  	<meta name="robots" content="no-source-map">
-
-	<!-- 更新字体 -->
-	<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-solid-900.woff2"
-        as="font" crossorigin="anonymous">
-
-  	<link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer">
-
-    {% include nav.html %}
+    
+	{% include nav.html %}
     {% include search.html %}
 
     {{ content }}
