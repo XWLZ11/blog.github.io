@@ -13,20 +13,20 @@ const CACHE_NAMESPACE = 'main-'
 
 const CACHE = CACHE_NAMESPACE + 'precache-then-runtime';
 
-const REPO_PATH = '/blog.github.io/';  // GitHub仓库路径
+const REPO_PATH = '/blog.github.io';  // GitHub仓库路径
 const PRECACHE_LIST = [
   REPO_PATH,
-  REPO_PATH + "offline.html",
-  REPO_PATH + "js/jquery.min.js",
-  REPO_PATH + "js/bootstrap.min.js",
-  REPO_PATH + "js/hux-blog.min.js",
-  REPO_PATH + "js/snackbar.js",
-  REPO_PATH + "img/icon_wechat.png",
-  REPO_PATH + "img/avatar-hux.jpg",
-  REPO_PATH + "img/home-bg.jpg",
-  REPO_PATH + "img/404-bg.jpg",
-  REPO_PATH + "css/hux-blog.min.css",
-  REPO_PATH + "css/bootstrap.min.css"
+  REPO_PATH + "/offline.html",
+  REPO_PATH + "/js/jquery.min.js",
+  REPO_PATH + "/js/bootstrap.min.js",
+  REPO_PATH + "/js/hux-blog.min.js",
+  REPO_PATH + "/js/snackbar.js",
+  REPO_PATH + "/img/icon_wechat.png",
+  REPO_PATH + "/img/avatar-hux.jpg",
+  REPO_PATH + "/img/home-bg.jpg",
+  REPO_PATH + "/img/404-bg.jpg",
+  REPO_PATH + "/css/hux-blog.min.css",
+  REPO_PATH + "/css/bootstrap.min.css"
   // "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css",
   // "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.woff2?v=4.6.3",
   // "//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"
